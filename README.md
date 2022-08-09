@@ -4,6 +4,7 @@ I built a convolutional neural network that labeled images based on whether or n
 Previously, the Tron lab used the video feeds of Roomba Create robots to monitor each other as part of a security protocol. All of the robots were provided with observation guidelines for where they should anticipate the other robots to be, in case one of the other robots veered off in an unexpected direction, posing a risk to the facility. For the robot to detect another robot within the frame of its video feed, a neural network is required. 
 
 Link to my poster: https://docs.google.com/presentation/d/1PhZVwcVXEPDdUp0-q9S6qtPHq6jwGptK1i3fDfSt6QI/edit?usp=sharing
+
 Link to my website: https://sites.google.com/view/audreygarongrowupdates/home
 
 # Methods
