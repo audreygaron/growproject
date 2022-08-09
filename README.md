@@ -19,7 +19,7 @@ III. I distilled the video into 38 individual images.
 
 IV. Next, I wrote a script that pixel-by-pixel swapped the green pixels in the background of each image for the pixels in another image. Every image’s green screen background was replaced with 10 other images, so that for every original image there was now 10 (in total 380).
 
-<a href="https://drive.google.com/uc?export=view&id=1oTz0uw9G1f_n3lOjqnr52GRG_hp1kGvG"><img src="1oTz0uw9G1f_n3lOjqnr52GRG_hp1kGvG" style="width: 400px; max-width: 100%; height: auto" title="Mixed image." /></a>
+<a href="https://drive.google.com/uc?export=view&id=1oTz0uw9G1f_n3lOjqnr52GRG_hp1kGvG"><img src="https://drive.google.com/uc?export=view&id=1oTz0uw9G1f_n3lOjqnr52GRG_hp1kGvG" style="width: 400px; max-width: 100%; height: auto" title="Image taken by one Roomba Create robot of another robot on top of a green screen background." /></a>
 
 V. To further augment my dataset, I wrote a program that created copies of the mixed images that were then vertically flipped so my data set contained 760 images instead of 380.
 
