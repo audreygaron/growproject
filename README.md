@@ -11,8 +11,6 @@ II. I then carried and walked around with another Roomba Create robot as it took
 
 III. I distilled the video into 38 individual images.
 
-![image](https://drive.google.com/uc?export=view&id=https://drive.google.com/file/d/16gDZQXTNvyLs8h0VYAHToXCZYux7fTMm)
-
 IV. Next, I wrote a script that pixel-by-pixel swapped the green pixels in the background of each image for the pixels in another image. Every image’s green screen background was replaced with 10 other images, so that for every original image there was now 10 (in total 380).
 
 V. To further augment my dataset, I wrote a program that created copies of the mixed images that were then vertically flipped so my data set contained 760 images instead of 380.
