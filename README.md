@@ -43,6 +43,8 @@ I wrote a script that based on a pre-set number of pixels, randomly selected pix
 ## 5. Creating the model
 The height, width, and number of channels were inputs to the model. The model had seven layers and 378,152 parameters. They were passed through the first activation function, a maxpool layer, two more activation functions, another maxpool layer, a linear layer, and a layer that moved the model forward. The model produced a prediction for whether there is or is not a robot in the image.
 
+<a href="https://drive.google.com/uc?export=view&id=16BfmYAt_BDKUNagnC0ImmsdVZBOnZ0l-"><img src="https://drive.google.com/uc?export=view&id=16BfmYAt_BDKUNagnC0ImmsdVZBOnZ0l-" style="width: 400px; max-width: 100%; height: auto" title="." /></a>
+
 ## 6. Running the data through the model
 I trained my data and then tested it on the model.
 
