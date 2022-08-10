@@ -64,6 +64,8 @@ I trained my data and then tested it on the model.
 
 3. The accuracy of the model was calculated and is shown below for each of the testing data sets based on how many pixels were corrupted.
 
+<a href="https://drive.google.com/uc?export=view&id=1v1bDGQWBlNhI8ge26n7fYaTCHBWQXdU7"><img src="https://drive.google.com/uc?export=view&id=1v1bDGQWBlNhI8ge26n7fYaTCHBWQXdU7" style="width: 400px; max-width: 100%; height: auto" title="." /></a>
+
 # Conclusions
 While 100% accuracy (for uncorrupted images) might seem impossible, the dataset itself provides an explanation for why the model can consistently predict whether or not a robot is in an image. The robot - no matter its rotation - looks the same in every image because it has a spherical design; this makes it easier for the model since the pixels values are similar in all the images. Before working on this project, I followed a tutorial that classified images based on whether they contained hotdogs. The hotdogs in these images were not all the same, meaning the model could not always predict if a hotdog was a hotdog. Additionally, the low testing accuracy for corrupted images demonstrates that a complex model would be needed for an expanded data set that includes more complicated images than those that were used in the uncorrupted data set.
 
