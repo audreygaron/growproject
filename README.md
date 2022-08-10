@@ -36,7 +36,7 @@ II. I put 90% of the positive data and 90% of the negative data in my training f
 ## 4. Corrupting the testing images
 I wrote a script that based on a pre-set number of pixels, randomly selected pixels in each of the mixed images within the testing data set and turned them black. I made several test data sets— each with a certain amount of corrupted pixels. I made a total of 14 data sets (not including the original, uncorrupted images) where both the positive and negative data were corrupted. The number of affected pixels ranged from 50 to 650 pixels for all of the datasets. I later compared the testing accuracy of these data sets with each other and the uncorrupted testing data set.
 
-<a href="https://drive.google.com/uc?export=view&id=1kvCxZ-nJmj2_ooYOwryCFjeO8uFPh3fG"><img src="https://drive.google.com/uc?export=view&id=1kvCxZ-nJmj2_ooYOwryCFjeO8uFPh3fG" style="width: 400px; max-width: 100%; height: auto" title="." /></a>
+<a href="https://drive.google.com/uc?export=view&id=1kvCxZ-nJmj2_ooYOwryCFjeO8uFPh3fG"><img src="https://drive.google.com/uc?export=view&id=1kvCxZ-nJmj2_ooYOwryCFjeO8uFPh3fG" style="width: 500px; max-width: 100%; height: auto" title="." /></a>
 
 ## 5. Creating the model
 The height, width, and number of channels were inputs to the model. The model had seven layers and 378,152 parameters. They were passed through the first activation function, a maxpool layer, two more activation functions, another maxpool layer, a linear layer, and a layer that moved the model forward. The model produced a prediction for whether there is or is not a robot in the image.
