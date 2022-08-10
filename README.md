@@ -23,7 +23,7 @@ IV. Next, I wrote a script that pixel-by-pixel swapped the green pixels in the b
 
 V. To further augment my dataset, I wrote a program that created copies of the mixed images that were then vertically flipped so my data set contained 760 images instead of 380.
 
-<a href="https://drive.google.com/uc?export=view&id=1nzkIL-NQF63KxKL7XIZq9A2bXnrmtT7G"><img src="https://drive.google.com/uc?export=view&id=1nzkIL-NQF63KxKL7XIZq9A2bXnrmtT7G" style="width: 400px; max-width: 100%; height: auto" title="Vertically flipped image." /></a>
+<a href="https://drive.google.com/uc?export=view&id=1nzkIL-NQF63KxKL7XIZq9A2bXnrmtT7G"><img src="https://drive.google.com/uc?export=view&id=1nzkIL-NQF63KxKL7XIZq9A2bXnrmtT7G" style="width: 400px; max-width: 100%; height: auto" title="Image taken by one Roomba Create robot of another robot on top of a green screen background." /></a>
 
 ## 2. Negative data (images without the robot)
 I. For my negative data, I carried and walked around with a Roomba Create robot while it took a video of different spaces in the lab.
